@@ -11,7 +11,8 @@ spec:
         backend:
           service:
             name: nginx-svc
-            port: 80
+            port:
+              number: 80
 
   defaultBackend:
     service:
