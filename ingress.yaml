@@ -3,6 +3,16 @@ kind: Ingress
 metadata:
   name: neg-demo-ing
 spec:
+  rules:
+  - http:
+      paths:
+      - path: /nginx
+        pathType: Prefix
+        backend:
+          service:
+            name: nginx-svc
+            port: 80
+
   defaultBackend:
     service:
       name: hello-app-svc
