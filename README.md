@@ -1,4 +1,4 @@
-# GKE Container Native Loadbalancing With Fanout Ingress
+# GKE Container-native load balancing with Fanout Ingress
 This repo demonstrates how to configure a single ingress to support
 multiple app deployments in a simple fanout configuration.
 
