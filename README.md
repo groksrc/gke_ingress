@@ -10,7 +10,7 @@ Also, nginx is used twice here so don't let that confuse you. The nginx deployme
 
 ## 1. Install The nginx ingress controller on the cluster
 
-Install nginx on GKE with the standard install steps:<br>
+Install ingress-nginx on GKE with the standard install steps:<br>
 https://kubernetes.github.io/ingress-nginx/deploy/#gce-gke
 
 ## 2. Apply Firewall Rules
